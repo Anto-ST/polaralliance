@@ -15,19 +15,19 @@ a {
 	text-decoration: none;
 }
 
-#sidebar {
+#lang {
+	/* width: 40px;
 	position: absolute;
 	left: 90vw;
-	z-index: 3;
-	display: inline-flex;
+	z-index: 3; */
 }
 
 #top-left-logo {
 	position: absolute;
-	width: 341px;
-	height: 363px;
+	width: 250px;
+	height: auto;
 	left: 0px;
-	top: -50px;
+	top: -30px;
 	z-index: 3;
 }
 
@@ -199,7 +199,10 @@ input {
 	background: none;
 }
 
-.form input, textarea, select, button {
+.form input,
+textarea,
+select,
+button {
 	width: 500px;
 	padding: 15px;
 	margin: 0;
@@ -225,4 +228,42 @@ input {
 #sec-5 p {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-size: 1.5em;
+}
+
+#sec-6 {
+	width: 100vw;
+	height: 50vh;
+	display: grid;
+	place-items: center;
+}
+
+#sec-7 {
+	display: flex;
+	flex: 1 1;
+}
+
+#logo-bottom {
+	display: block;
+	width: 400px;
+	height: auto;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: 260px;
+}
+
+h6 {
+	font-size: 1.5em;
+	color: #FBC304;
+	line-height: 0px;
+}
+
+#rights p {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
 }
